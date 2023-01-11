@@ -76,5 +76,5 @@ TBD
 
 ## Questions
 
-For any questions, please view my repo at: https://github.com/mgetz34
+For any questions, please view my profile at: https://github.com/mgetz34
 My email address is: mgetz340@gmail.com
