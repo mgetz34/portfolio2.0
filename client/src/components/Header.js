@@ -8,7 +8,7 @@ const Header = () => {
 
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link to="/" className="navbar-brand text-dark">Michael Getz</Link>
+                        <Link to="/" className="navbar-brand text-dark">Home</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/about" className="nav-link text-dark">About Me</Link>
