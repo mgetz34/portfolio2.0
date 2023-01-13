@@ -11,18 +11,32 @@ import Footer from "./components/Footer";
 
 const App = () => {
     return (
-        <div className="container">
-            <Router>
+        <Router>
+            <div className="flex-column justify-flex-start min-100-vh">
                 <Header />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/projects" element={<Projects />} />
-                </Routes>
+                <div className="container">
+                    <Routes>
+                        <Route
+                            path="/"
+                            element={<Home />}
+                        />
+                        <Route
+                            path="/about"
+                            element={<About />}
+                        />
+                        <Route
+                            path="/contact"
+                            element={<Contact />}
+                        />
+                        <Route
+                            path="/projects"
+                            element={<Projects />}
+                        />
+                    </Routes>
+                </div>
                 <Footer />
-            </Router>
-        </div>
+            </div>
+        </Router>
     );
 }
 
