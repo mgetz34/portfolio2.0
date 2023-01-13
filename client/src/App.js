@@ -11,32 +11,34 @@ import Footer from "./components/Footer";
 
 const App = () => {
     return (
-        <Router>
-            <div className="flex-column justify-flex-start min-100-vh">
-                <Header />
-                <div className="container">
-                    <Routes>
-                        <Route
-                            path="/"
-                            element={<Home />}
-                        />
-                        <Route
-                            path="/about"
-                            element={<About />}
-                        />
-                        <Route
-                            path="/contact"
-                            element={<Contact />}
-                        />
-                        <Route
-                            path="/projects"
-                            element={<Projects />}
-                        />
-                    </Routes>
+        <div>
+            <Router>
+                <div className="flex-column justify-flex-start min-100-vh">
+                    <Header />
+                    <div className="container">
+                        <Routes>
+                            <Route
+                                path="/"
+                                element={<Home />}
+                            />
+                            <Route
+                                path="/about"
+                                element={<About />}
+                            />
+                            <Route
+                                path="/contact"
+                                element={<Contact />}
+                            />
+                            <Route
+                                path="/projects"
+                                element={<Projects />}
+                            />
+                        </Routes>
+                    </div>
+                    <Footer />
                 </div>
-                <Footer />
-            </div>
-        </Router>
+            </Router>
+        </div>
     );
 }
 
