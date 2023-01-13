@@ -1,20 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Projects from "./components/pages/Projects";
 
-
-//define the routes anbd import components 
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import PortfolioContainer from './components/PortfolioContainer'
+
 
 const App = () => {
     return (
-        <div>
+        <div className="container">
             <Router>
                 <Header />
                 <Routes>
