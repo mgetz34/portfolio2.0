@@ -10,8 +10,6 @@
 - [Acceptance Criteria](#acceptance-criteria)
 - [Description](#description)
 - [Usage](#usage)
-- [Credits](#credits)
-- [Features](#features)
 - [How to Contribute](#contribute)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -56,16 +54,11 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Description
 
-This portfolio was built using React. This is a refurbished verion of my original portfolio project built with standard html and css.
+This portfolio was built using React. This is a refurbished verion of my original portfolio project built with standard html and css. This application is still under development. Tips and feedback are appreciated!
 
 ## Usage
 
-![home screen](TBD)
-
-## Credits
-
-
-## Features
+![home screen](./client/src/images/Screenshot%202023-01-13%20224227.png)
 
 ## How to Contribute
 
