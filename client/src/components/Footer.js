@@ -1,6 +1,7 @@
 import React from 'react';
 // Import hooks from React Router
 import { useLocation, useNavigate } from 'react-router-dom';
+import './Footer.css'
 
 const Footer = () => {
     // We retrieve the current `location` object data from React Router
@@ -9,6 +10,8 @@ const Footer = () => {
     const navigate = useNavigate();
     return (
         <footer className="w-100 mt-auto text-dark p-4">
+            <img src={require('../images/li.png')} className="icon" alt="linked-in" />
+            <img src={require('../images/gh.png')} className="icon" alt="git-hub" />
             <div className="container text-center mb-5">
                 {location.pathname !== '/' && (
                     <button

@@ -11,13 +11,13 @@ function Projects() {
                     <img src={require('../../images/hangman.png')} className="card-img-top" alt="app homescreen" />
                     <div className="card-body">
                         <h5 className="card-title">Hangman Application</h5>
-                        <p className="card-text">A fun app to play Hangman after logging in and creating a profile</p>
+                        <p className="card-text">Play onlive with your friends!</p>
                         <a href="https://crimekermitterhangman.herokuapp.com/"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
                         <a href="https://github.com/cbaird21/Hangman_app/"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
                         <h5>Technogies Used</h5>
-                        <p>Js, Handlebars.js, Express.js</p>
+                        <p>Js, Handlebars.js, Express.js, MySQL</p>
                     </div>
                 </div>
 
@@ -30,6 +30,8 @@ function Projects() {
                             target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
                         <a href="https://github.com/Slimshady079/National-Parks-Search/"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                        <h5>Technogies Used</h5>
+                        <p>JQuery, Bootstrap, HTML</p>
                     </div>
                 </div>
 
@@ -37,11 +39,13 @@ function Projects() {
                     <img src={require('../../images/cs.png')} className="card-img-top" alt="app homescreen" />
                     <div className="card-body">
                         <h5 className="card-title">Coming Soon!!</h5>
-                        <p className="card-text">Project 3 to be released upon completion</p>
+                        <p className="card-text">Project 3 to be released upon completion!</p>
                         <a href="https://github.com/mgetz34"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
                         <a href="https://github.com/mgetz34"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                        <h5>Technogies Used</h5>
+                        <p>GraphQL, Express.js, Node.js, MongoDB, React</p>
                     </div>
                 </div>
 
@@ -56,6 +60,8 @@ function Projects() {
                             target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
                         <a href="https://github.com/mgetz34/text-editor"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                        <h5>Technogies Used</h5>
+                        <p>IndexedDB, Webpack, Service-Workers, PWA functionality</p>
                     </div>
                 </div>
 
@@ -68,6 +74,8 @@ function Projects() {
                             target="_blank" rel="noreferrer" className="btn btn-primary">Video Walk-Thru</a>
                         <a href="https://github.com/mgetz34/employee-tracker"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                        <h5>Technogies Used</h5>
+                        <p>Node.js, Inquirer, MySQL</p>
                     </div>
                 </div>
 
@@ -80,6 +88,8 @@ function Projects() {
                             target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
                         <a href="https://github.com/mgetz34/password-generator"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                        <h5>Technogies Used</h5>
+                        <p>HTML, CSS, Js</p>
                     </div>
                 </div>
             </div>
