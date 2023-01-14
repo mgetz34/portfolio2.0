@@ -5,39 +5,82 @@ import './Projects.css'
 function Projects() {
     return (
         <React.Fragment>
-            <div className="card" style={{ width: '18rem' }}>
-                <img src={require('../../images/hangman.png')} className="card-img-top" alt="app homescreen" />
-                <div className="card-body">
-                    <h5 className="card-title">Hangman Application</h5>
-                    <p className="card-text">A fun app to play Hangman after logging in and creating a profile</p>
-                    <a href="https://crimekermitterhangman.herokuapp.com/"
-                        target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
-                    <a href="https://github.com/cbaird21/Hangman_app/"
-                        target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+            <div class="row justify-content-md-center">
+                <h1>Group Projects</h1>
+                <div className="card col-6 col-md-4" style={{ width: '18rem' }}>
+                    <img src={require('../../images/hangman.png')} className="card-img-top" alt="app homescreen" />
+                    <div className="card-body">
+                        <h5 className="card-title">Hangman Application</h5>
+                        <p className="card-text">A fun app to play Hangman after logging in and creating a profile</p>
+                        <a href="https://crimekermitterhangman.herokuapp.com/"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
+                        <a href="https://github.com/cbaird21/Hangman_app/"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                        <h5>Technogies Used</h5>
+                        <p>Js, Handlebars.js, Express.js</p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="card" style={{ width: '18rem' }}>
-                <img src={require('../../images/nps.png')} className="card-img-top" alt="app homescreen" />
-                <div className="card-body">
-                    <h5 className="card-title">National Parks Search</h5>
-                    <p className="card-text">Search for the next fun vaction with the family!</p>
-                    <a href="https://slimshady079.github.io/National-Parks-Search/"
-                        target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
-                    <a href="https://github.com/Slimshady079/National-Parks-Search/"
-                        target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                <div className="card col-6 col-md-4" style={{ width: '18rem' }}>
+                    <img src={require('../../images/nps.png')} className="card-img-top" alt="app homescreen" />
+                    <div className="card-body ">
+                        <h5 className="card-title">National Parks Search</h5>
+                        <p className="card-text">Search for the next fun vaction with the family!</p>
+                        <a href="https://slimshady079.github.io/National-Parks-Search/"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
+                        <a href="https://github.com/Slimshady079/National-Parks-Search/"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                    </div>
                 </div>
-            </div>
 
-            <div className="card" style={{ width: '18rem' }}>
-                <img src={require('../../images/cs.png')} className="card-img-top" alt="app homescreen" />
-                <div className="card-body">
-                    <h5 className="card-title">Coming Soon!!</h5>
-                    <p className="card-text">Project 3 to be released upon completion</p>
-                    <a href="#"
-                        target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
-                    <a href="#"
-                        target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                <div className="card col-6 col-md-4" style={{ width: '18rem' }}>
+                    <img src={require('../../images/cs.png')} className="card-img-top" alt="app homescreen" />
+                    <div className="card-body">
+                        <h5 className="card-title">Coming Soon!!</h5>
+                        <p className="card-text">Project 3 to be released upon completion</p>
+                        <a href="https://github.com/mgetz34"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
+                        <a href="https://github.com/mgetz34"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                    </div>
+                </div>
+
+                <h1>Solo Endeavors</h1>
+
+                <div className="card col-6 col-md-4" style={{ width: '18rem' }}>
+                    <img src={require('../../images/te.png')} className="card-img-top" alt="app homescreen" />
+                    <div className="card-body ">
+                        <h5 className="card-title">Text editor</h5>
+                        <p className="card-text">Have a note, jot it down!</p>
+                        <a href="https://serene-spire-38646.herokuapp.com/"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
+                        <a href="https://github.com/mgetz34/text-editor"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                    </div>
+                </div>
+
+                <div className="card col-6 col-md-4" style={{ width: '18rem' }}>
+                    <img src={require('../../images/et.png')} className="card-img-top" alt="app homescreen" />
+                    <div className="card-body ">
+                        <h5 className="card-title">Employee Tracker</h5>
+                        <p className="card-text">An interactive node.js program to produce a roster!</p>
+                        <a href="https://drive.google.com/file/d/112mHdbj7fAZLw2NRXPhKCWUggpRvVpFB/view"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Video Walk-Thru</a>
+                        <a href="https://github.com/mgetz34/employee-tracker"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                    </div>
+                </div>
+
+                <div className="card col-6 col-md-4" style={{ width: '18rem' }}>
+                    <img src={require('../../images/pg.png')} className="card-img-top" alt="app homescreen" />
+                    <div className="card-body ">
+                        <h5 className="card-title">Password Generator</h5>
+                        <p className="card-text">Use this for your next secure password!</p>
+                        <a href="https://mgetz34.github.io/password-generator/"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
+                        <a href="https://github.com/mgetz34/password-generator"
+                            target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
+                    </div>
                 </div>
             </div>
         </React.Fragment>
