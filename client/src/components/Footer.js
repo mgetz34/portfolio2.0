@@ -10,8 +10,9 @@ const Footer = () => {
     const navigate = useNavigate();
     return (
         <footer className="w-100 mt-auto text-dark p-4">
-            <img src={require('../images/li.png')} className="icon" alt="linked-in" />
-            <img src={require('../images/gh.png')} className="icon" alt="git-hub" />
+            <a href="https://www.linkedin.com/in/michael-getz-340/" target="_blank" rel="noreferrer"><img src={require('../images/li.png')} alt="linked-in" /></a>
+
+            <a href="https://github.com/mgetz34" target="_blank" rel="noreferrer"><img src={require('../images/gh.png')} alt="git-hub" /></a>
             <div className="container text-center mb-5">
                 {location.pathname !== '/' && (
                     <button
