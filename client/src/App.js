@@ -9,6 +9,7 @@ import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Resume from "./components/Resume";
 
 
 const App = () => {
@@ -34,6 +35,10 @@ const App = () => {
                             <Route
                                 path="/projects"
                                 element={<Projects />}
+                            />
+                            <Route
+                                path="/projects"
+                                element={<Resume />}
                             />
                         </Routes>
                     </div>
