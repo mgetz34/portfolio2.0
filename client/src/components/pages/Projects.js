@@ -38,11 +38,11 @@ function Projects() {
                 <div className="card col-6 col-md-4" style={{ width: '18rem' }}>
                     <img src={require('../../images/cs.png')} className="card-img-top" alt="app homescreen" />
                     <div className="card-body">
-                        <h5 className="card-title">Coming Soon!!</h5>
-                        <p className="card-text">Project 3 to be released upon completion!</p>
-                        <a href="https://github.com/mgetz34"
+                        <h5 className="card-title">frogr</h5>
+                        <p className="card-text">Full-stack React social media app!</p>
+                        <a href="https://frogr-app.herokuapp.com/"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
-                        <a href="https://github.com/mgetz34"
+                        <a href="https://github.com/cbaird21/frogr"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
                         <h5>Technogies Used</h5>
                         <p>GraphQL, Express.js, Node.js, MongoDB, React</p>
