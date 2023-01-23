@@ -36,7 +36,7 @@ function Projects() {
                 </div>
 
                 <div className="card col-6 col-md-4" style={{ width: '18rem' }}>
-                    <img src={require('../../images/cs.png')} className="card-img-top" alt="app homescreen" />
+                    <img src={require('../../images/frogr.png')} className="card-img-top" alt="app homescreen" />
                     <div className="card-body">
                         <h5 className="card-title">frogr</h5>
                         <p className="card-text">Full-stack React social media app!</p>
