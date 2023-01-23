@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Resume() {
-    return (
+// function Resume() {
+//     return (
         
-    )
-}
-export default Resume;
+//     )
+// }
+// export default Resume;

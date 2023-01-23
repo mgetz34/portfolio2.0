@@ -9,7 +9,7 @@ import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume";
+// import Resume from "./components/pages/Resume";
 
 
 const App = () => {
@@ -36,10 +36,10 @@ const App = () => {
                                 path="/projects"
                                 element={<Projects />}
                             />
-                            <Route
-                                path="/projects"
+                            {/* <Route
+                                path="/resume"
                                 element={<Resume />}
-                            />
+                            /> */}
                         </Routes>
                     </div>
                     <Footer />
