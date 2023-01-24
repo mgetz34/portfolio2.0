@@ -1,3 +1,9 @@
-.subject {
-background-color: white;
+.button {
+position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.click:hover {
+    background: palegreen;
 }

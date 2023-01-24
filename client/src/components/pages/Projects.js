@@ -1,8 +1,5 @@
 import React from 'react';
-import './Projects.css'
-// import Button from 'react-bootstrap/Button';
-// import Card from 'react-bootstrap/Card';
-
+import './Projects.css';
 
 function Projects() {
     return (
