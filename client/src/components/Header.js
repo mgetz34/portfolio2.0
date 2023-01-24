@@ -1,4 +1,5 @@
 import React from "react"
+import './Header.css'
 import { Link } from "react-router-dom"
 
 const Header = () => {
@@ -8,19 +9,19 @@ const Header = () => {
 
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link to="/" className="navbar-brand text-dark">Home</Link>
+                        <Link to="/" className="navbar-brand text-light" >Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/about" className="nav-link text-dark">About Me</Link>
+                        <Link to="/about" className="nav-link text-light">About Me</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/projects" className="nav-link text-dark" >Projects</Link>
+                        <Link to="/projects" className="nav-link text-light" >Projects</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/contact" className="nav-link text-dark">Contact</Link>
+                        <Link to="/contact" className="nav-link text-light">Contact</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/resume" className="nav-link text-dark">Resume</Link>
+                        <Link to="/resume" className="nav-link text-light">Resume</Link>
                     </li>
                 </ul>
             </div>

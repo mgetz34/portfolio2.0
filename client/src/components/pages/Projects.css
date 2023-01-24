@@ -1,11 +1,10 @@
-
 .card {
     margin: 40px;
 }
 
 .card-img-top {
-    height: 306px;
-    width: 320px;
+    height: 200px;
+    width: 250px;
 }
 
 H5.card-title {

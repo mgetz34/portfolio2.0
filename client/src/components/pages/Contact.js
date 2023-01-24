@@ -8,7 +8,7 @@ import Row from 'react-bootstrap/Row';
 function Contact() {
     return (
         <Form>
-            <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
+            <Form.Group as={Row} className="mb-3 text-light" controlId="formHorizontalEmail">
                 <Form.Label column sm={2}>
                     First Name
                 </Form.Label>
@@ -17,7 +17,7 @@ function Contact() {
                 </Col>
             </Form.Group>
 
-            <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
+            <Form.Group as={Row} className="mb-3 text-light" controlId="formHorizontalEmail">
                 <Form.Label column sm={2}>
                     Last Name
                 </Form.Label>
@@ -26,7 +26,7 @@ function Contact() {
                 </Col>
             </Form.Group>
 
-            <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
+            <Form.Group as={Row} className="mb-3 text-light" controlId="formHorizontalEmail">
                 <Form.Label column sm={2}>
                     Email
                 </Form.Label>
@@ -35,13 +35,13 @@ function Contact() {
                 </Col>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+            <Form.Group className="mb-3 text-light" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" rows={3} />
             </Form.Group>
 
             <fieldset>
-                <Form.Group as={Row} className="mb-3">
+                <Form.Group as={Row} className="mb-3 text-light">
                     <Form.Label as="legend" column sm={2}>
                         Subject
                     </Form.Label>

@@ -2,8 +2,10 @@
 position: relative;
     left: 50%;
     transform: translateX(-50%);
+    width: 220px;
+    text-shadow: 20px;
 }
 
 .click:hover {
-    background: palegreen;
+    background: rgb(231, 16, 16);
 }

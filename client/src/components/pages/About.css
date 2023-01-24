@@ -1,4 +1,13 @@
 .m-0 {
-color: black;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background-color: rgb(239, 239, 245);
+    border-radius: 20px 20px 20px 20px;
+    width: 65vw;
+    height: 45vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Tomorrow', sans-serif;
 }
 
