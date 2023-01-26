@@ -19,7 +19,7 @@ This portfolio was built using React. This is a refurbished verion of my origina
 
 ## Usage
 
-![home screen](./client/src/images/Screenshot%202023-01-13%20224227.png)
+![home screen](./client/src/images/Screenshot.png)
 
 ## How to Contribute
 
