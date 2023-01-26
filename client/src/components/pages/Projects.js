@@ -12,13 +12,13 @@ function Projects() {
                     <img src={require('../../images/hangman.png')} className="card-img-top img-thumbnail" alt="app homescreen" />
                     <div className="card-body">
                         <h5 className="card-title">Hangman Application</h5>
-                        <p className="card-text">Play onlive with your friends!</p>
+                        <p className="card-text">Game of playing Hangman guessing western themed words.</p>
                         <a href="https://crimekermitterhangman.herokuapp.com/"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Application</a>
                         <a href="https://github.com/cbaird21/Hangman_app/"
                             target="_blank" rel="noreferrer" className="btn btn-primary">Repo</a>
                         <h5>Technogies Used</h5>
-                        <p>JS, Handlebars.js, Express.js, MySQL</p>
+                        <p>JS, Handlebars.js, Express.js, MySQL, RESTful api</p>
                     </div>
                 </div>
 
