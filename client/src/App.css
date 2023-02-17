@@ -6,6 +6,10 @@
     font-family: 'Tomorrow', sans-serif;
 }
 
+.keep-background-image-centered {
+    background-attachment: fixed;
+}
+
 body {
     background-color: rgb(209, 99, 99);
 }

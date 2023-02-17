@@ -15,7 +15,7 @@ import Resume from "./components/pages/Resume";
 
 const App = () => {
     return (
-        <div style={{ backgroundImage: `url(${background})` }}>
+        <div className="keep-background-image-centered" style={{ backgroundImage: `url(${background})` }}>
             <Router>
                 <div className="flex-column justify-flex-start min-100-vh">
                     <Header />
