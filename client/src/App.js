@@ -11,7 +11,7 @@ import Projects from "./components/pages/Projects";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Resume from "./components/pages/Resume";
-
+import samplePDF from "./sample.pdf"
 
 const App = () => {
     return (
@@ -39,7 +39,7 @@ const App = () => {
                             />
                             <Route
                                 path="/resume"
-                                element={<Resume />}
+                                element={<Resume pdf={samplePDF} />}
                             />
                         </Routes>
                     </div>
